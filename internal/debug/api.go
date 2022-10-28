@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/error2215/go-core/log"
 )
 
 // Handler is the global debugging handler.

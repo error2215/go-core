@@ -26,12 +26,12 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/error2215/go-core/cmd/utils"
+	"github.com/error2215/go-core/eth"
+	"github.com/error2215/go-core/internal/ethapi"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/node"
+	"github.com/error2215/go-core/params"
 	"github.com/naoina/toml"
 )
 

@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/consensus/ethash"
+	"github.com/error2215/go-core/core"
+	"github.com/error2215/go-core/core/rawdb"
+	"github.com/error2215/go-core/core/types"
+	"github.com/error2215/go-core/core/vm"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/params"
+	"github.com/error2215/go-core/rpc"
 )
 
 type testBackend struct {

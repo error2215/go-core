@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/core/rawdb"
+	"github.com/error2215/go-core/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

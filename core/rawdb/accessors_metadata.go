@@ -19,11 +19,11 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/ethdb"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/params"
+	"github.com/error2215/go-core/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

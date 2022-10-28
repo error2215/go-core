@@ -24,14 +24,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/common/prque"
+	"github.com/error2215/go-core/core/state"
+	"github.com/error2215/go-core/core/types"
+	"github.com/error2215/go-core/event"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/metrics"
+	"github.com/error2215/go-core/params"
 )
 
 const (

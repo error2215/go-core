@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/error2215/go-core/common/mclock"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/internal/testlog"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/p2p/enode"
+	"github.com/error2215/go-core/p2p/enr"
 )
 
 const (

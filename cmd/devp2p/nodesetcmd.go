@@ -21,10 +21,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/error2215/go-core/core/forkid"
+	"github.com/error2215/go-core/p2p/enr"
+	"github.com/error2215/go-core/params"
+	"github.com/error2215/go-core/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

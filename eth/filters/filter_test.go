@@ -23,13 +23,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/consensus/ethash"
+	"github.com/error2215/go-core/core"
+	"github.com/error2215/go-core/core/rawdb"
+	"github.com/error2215/go-core/core/types"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/params"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

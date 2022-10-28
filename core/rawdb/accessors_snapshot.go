@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/ethdb"
+	"github.com/error2215/go-core/log"
 )
 
 // ReadSnapshotRoot retrieves the root of the block whose state is contained in

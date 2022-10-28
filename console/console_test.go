@@ -26,14 +26,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/consensus/ethash"
+	"github.com/error2215/go-core/console/prompt"
+	"github.com/error2215/go-core/core"
+	"github.com/error2215/go-core/eth"
+	"github.com/error2215/go-core/internal/jsre"
+	"github.com/error2215/go-core/miner"
+	"github.com/error2215/go-core/node"
 )
 
 const (

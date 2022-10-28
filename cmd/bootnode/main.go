@@ -24,14 +24,14 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/error2215/go-core/cmd/utils"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/p2p/discover"
+	"github.com/error2215/go-core/p2p/discv5"
+	"github.com/error2215/go-core/p2p/enode"
+	"github.com/error2215/go-core/p2p/nat"
+	"github.com/error2215/go-core/p2p/netutil"
 )
 
 func main() {

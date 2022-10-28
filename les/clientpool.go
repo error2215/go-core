@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	lps "github.com/ethereum/go-ethereum/les/lespay/server"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/error2215/go-core/common/mclock"
+	"github.com/error2215/go-core/ethdb"
+	lps "github.com/error2215/go-core/les/lespay/server"
+	"github.com/error2215/go-core/les/utils"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/p2p/enode"
+	"github.com/error2215/go-core/p2p/enr"
+	"github.com/error2215/go-core/p2p/nodestate"
 )
 
 const (

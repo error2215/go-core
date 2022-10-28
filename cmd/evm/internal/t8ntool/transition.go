@@ -24,14 +24,14 @@ import (
 	"os"
 	"path"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/core"
+	"github.com/error2215/go-core/core/state"
+	"github.com/error2215/go-core/core/types"
+	"github.com/error2215/go-core/core/vm"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/params"
+	"github.com/error2215/go-core/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

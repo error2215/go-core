@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

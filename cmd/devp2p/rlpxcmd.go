@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/error2215/go-core/cmd/devp2p/internal/ethtest"
+	"github.com/error2215/go-core/crypto"
+	"github.com/error2215/go-core/p2p"
+	"github.com/error2215/go-core/p2p/rlpx"
+	"github.com/error2215/go-core/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

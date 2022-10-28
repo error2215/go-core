@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/ethdb"
+	"github.com/error2215/go-core/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

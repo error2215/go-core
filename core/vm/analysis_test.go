@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/error2215/go-core/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

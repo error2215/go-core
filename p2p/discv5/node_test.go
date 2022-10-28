@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/error2215/go-core/common"
+	"github.com/error2215/go-core/crypto"
 )
 
 func ExampleNewNode() {

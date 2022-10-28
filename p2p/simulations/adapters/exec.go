@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/error2215/go-core/log"
+	"github.com/error2215/go-core/node"
+	"github.com/error2215/go-core/p2p"
+	"github.com/error2215/go-core/p2p/enode"
+	"github.com/error2215/go-core/rpc"
 	"github.com/gorilla/websocket"
 )
 
